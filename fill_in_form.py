@@ -10,7 +10,7 @@ import HTMLTestRunner
 
 # -*- coding: utf-8 -*-
 
-class TrustArc(unittest.TestCase):
+class Test(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
